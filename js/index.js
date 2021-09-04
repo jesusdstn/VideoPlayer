@@ -34,7 +34,7 @@ function forwardVideo(){
 
 $video.addEventListener('loadedmetadata',handleLoaderMetadata);
 $video.addEventListener('timeupdate', handleTimeUpdate);
-console.log($video.readyState);
+// console.log($video.readyState);
 if ($video.readyState >= 2) {
   handleLoaderMetadata();
 }
